@@ -1,0 +1,90 @@
+<div class="manage-loans-wrapper" *ngIf="!loading()">
+
+  <div class="page-header">
+    <h2>Manage Loan Types</h2>
+    <p>Update available loans</p>
+  </div>
+
+
+  <mat-card class="table-card">
+
+    <div class="table-header">
+      <h3>Loan Types</h3>
+      <span>{{ loanTypes().length }} configured</span>
+    </div>
+
+    <table
+      mat-table
+      [dataSource]="loanTypes()"
+      class="loan-table">
+
+      
+      <ng-container matColumnDef="loanTypeId">
+        <th mat-header-cell *matHeaderCellDef>ID</th>
+        <td mat-cell *matCellDef="let l">{{ l.loanTypeId }}</td>
+      </ng-container>
+
+      
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef>Loan Type</th>
+        <td mat-cell *matCellDef="let l">
+          <strong>{{ l.name }}</strong>
+        </td>
+      </ng-container>
+
+      
+      <ng-container matColumnDef="interestRate">
+        <th mat-header-cell *matHeaderCellDef>Interest</th>
+        <td mat-cell *matCellDef="let l">{{ l.interestRate }}%</td>
+      </ng-container>
+
+      
+      <ng-container matColumnDef="minAmount">
+        <th mat-header-cell *matHeaderCellDef>Min Amount</th>
+        <td mat-cell *matCellDef="let l">
+          ₹ {{ l.minAmount | number:'1.0-0' }}
+        </td>
+      </ng-container>
+
+      
+      <ng-container matColumnDef="maxAmount">
+        <th mat-header-cell *matHeaderCellDef>Max Amount</th>
+        <td mat-cell *matCellDef="let l">
+          ₹ {{ l.maxAmount | number:'1.0-0' }}
+        </td>
+      </ng-container>
+
+    
+      <ng-container matColumnDef="maxTenure">
+        <th mat-header-cell *matHeaderCellDef>Max Tenure</th>
+        <td mat-cell *matCellDef="let l">
+          {{ l.maxTenure }} months
+        </td>
+      </ng-container>
+
+   
+      <ng-container matColumnDef="action">
+        <th mat-header-cell *matHeaderCellDef>Action</th>
+        <td mat-cell *matCellDef="let l">
+          <button
+            mat-stroked-button
+            color="primary"
+            class="edit-btn"
+            (click)="editLoanType(l.loanTypeId)">
+            Edit
+          </button>
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    </table>
+
+    <div class="empty-state" *ngIf="loanTypes().length === 0">
+      <p>No loan types available.</p>
+    </div>
+
+  </mat-card>
+
+</div>

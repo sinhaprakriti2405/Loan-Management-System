@@ -1,0 +1,147 @@
+
+
+<mat-sidenav-container class="sidenav-container">
+
+  <!-- ===== SIDENAV ===== -->
+  <mat-sidenav mode="side" opened class="sidenav">
+
+    <!-- BRAND -->
+    <div class="brand">
+      <span class="logo">LoanBox</span>
+      <span class="tagline">Customer Portal</span>
+    </div>
+
+    <!-- NAV -->
+    <mat-nav-list class="nav-list">
+
+      <a mat-list-item
+         routerLink="/customer/dashboard"
+         routerLinkActive="active">
+        <mat-icon>dashboard</mat-icon>
+        <span>Dashboard</span>
+      </a>
+
+      <a mat-list-item
+         routerLink="/customer/apply-loan"
+         routerLinkActive="active">
+        <mat-icon>assignment</mat-icon>
+        <span>Apply Loan</span>
+      </a>
+
+      <a mat-list-item
+         routerLink="/customer/my-loans"
+         routerLinkActive="active">
+        <mat-icon>list_alt</mat-icon>
+        <span>My Loans</span>
+      </a>
+
+      <a mat-list-item
+         routerLink="/customer/pay-emi"
+         routerLinkActive="active">
+        <mat-icon>payments</mat-icon>
+        <span>Pay EMI</span>
+      </a>
+
+    </mat-nav-list>
+
+    <!-- LOGOUT -->
+    <div class="logout-footer">
+      <button mat-button (click)="logout()">
+        <mat-icon>logout</mat-icon>
+        Logout
+      </button>
+    </div>
+
+  </mat-sidenav>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <mat-sidenav-content>
+
+    <!-- ===== TOP BAR ===== -->
+    <mat-toolbar class="topbar">
+
+    <span class="page-title">
+      Hi, {{ userName() }} 👋
+    </span>
+
+     <span class="spacer"></span>
+
+    <button
+  mat-icon-button
+  [matMenuTriggerFor]="notifMenu"
+  class="notification-btn">
+
+  <mat-icon>notifications</mat-icon>
+
+  <span
+    class="notif-dot"
+    *ngIf="unreadCount() > 0">
+  </span>
+</button>
+
+<mat-menu #notifMenu="matMenu" class="notification-menu">
+
+  <div class="notif-header">
+    <span>Notifications</span>
+    <button
+      mat-icon-button
+      matTooltip="Mark all as read"
+      (click)="markAllRead()">
+      <mat-icon>done_all</mat-icon>
+    </button>
+  </div>
+
+  <ng-container *ngIf="notifications().length; else noNotif">
+
+    <div
+      class="notif-item"
+      *ngFor="let n of notifications()"
+      [class.unread]="!n.isRead">
+
+      <div class="notif-content">
+        <strong>{{ n.title }}</strong>
+        <p>{{ n.message }}</p>
+        <small>{{ n.createdAt | date:'short' }}</small>
+      </div>
+
+      <button
+        mat-icon-button
+        *ngIf="!n.isRead"
+        (click)="markRead(n)">
+        <mat-icon>done</mat-icon>
+      </button>
+
+    </div>
+
+  </ng-container>
+
+  <ng-template #noNotif>
+    <div class="empty-notif">
+      No notifications
+    </div>
+  </ng-template>
+
+</mat-menu>
+
+      <button mat-icon-button [matMenuTriggerFor]="userMenu">
+        <mat-icon>account_circle</mat-icon>
+      </button>
+
+      <mat-menu #userMenu="matMenu">
+        <button mat-menu-item routerLink="/customer/profile">
+          <mat-icon>person</mat-icon>
+          View Profile
+        </button>
+
+      </mat-menu>
+
+    </mat-toolbar>
+
+    <!-- ROUTED CONTENT -->
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+
+  </mat-sidenav-content>
+
+</mat-sidenav-container>

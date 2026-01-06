@@ -1,0 +1,143 @@
+.emi-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* STATUS CARDS */
+.status-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.status-card mat-icon {
+  font-size: 40px;
+}
+
+.status-card h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.status-card p {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+/* REJECTED */
+.status-card.rejected {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* PENDING */
+.status-card.pending {
+  background: #fef9c3;
+  color: #854d0e;
+}
+
+/* CLOSED */
+.status-card.closed {
+  background: #e5e7eb;
+  color: #374151;
+  justify-content: center;
+}
+
+/* SUMMARY */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+/* ================= ICON SAFE WRAPPER ================= */
+.icon-wrap {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+}
+
+/* 🔥 IMPORTANT PART */
+.icon-wrap mat-icon {
+  font-size: 24px;
+
+  /* give icon more vertical space than font-size */
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  vertical-align: middle;
+}
+
+
+
+.summary-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px;
+  border-radius: 16px;
+}
+
+.summary-card mat-icon {
+  font-size: 30px;
+}
+
+.summary-card h4 {
+  margin: 0;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.summary-card p {
+  margin-top: 4px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* TABLE */
+.table-card {
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.emi-table {
+  width: 100%;
+}
+
+.emi-chip {
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.emi-chip.pending {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.emi-chip.paid {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.emi-chip.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -1,0 +1,74 @@
+/* WRAPPER – CENTER BOTH HORIZONTALLY & VERTICALLY */
+/* WRAPPER */
+.profile-wrapper {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD */
+.profile-card {
+  width: 100%;
+  max-width: 520px;
+
+
+  padding: 24px 28px;
+  border-radius: 20px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+}
+
+
+/* HEADER */
+.profile-header {
+  margin-bottom: 16px;
+}
+
+.profile-header h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.profile-header p {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+/* FORM */
+.full-width {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+/* SUCCESS MESSAGE */
+.success-msg {
+  margin: 12px 0;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #dcfce7;
+  color: #166534;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* ACTION ROW */
+.action-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+button[mat-raised-button] {
+  border-radius: 999px;
+  padding: 6px 20px;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .profile-card {
+    padding: 20px;
+  }
+}

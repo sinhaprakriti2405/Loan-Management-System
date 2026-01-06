@@ -1,0 +1,130 @@
+/* WRAPPER */
+.loan-details-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* STATUS CARD */
+.status-card {
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.status-card h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.status-text {
+  margin-top: 6px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.loan-id {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+/* STATUS COLORS (SUBTLE) */
+.status-card.Approved {
+  background: #e8f0ff;
+  color: #1e3a8a;
+}
+
+.status-card.Rejected {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.status-card.Pending,
+.status-card.Applied {
+  background: #fef9c3;
+  color: #854d0e;
+}
+
+.status-card.Closed {
+  background: #f1f5f9;
+  color: #374151;
+}
+
+/* SUMMARY CARD */
+.summary-card {
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.summary-card h3 {
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* SUMMARY GRID */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 24px;
+}
+
+.summary-item span {
+  display: block;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.summary-item strong {
+  font-size: 15px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+/* TABLE CARD */
+.table-card {
+  padding: 20px;
+  border-radius: 16px;
+}
+
+/* TABLE */
+.loan-table {
+  width: 100%;
+}
+
+.loan-table th {
+  font-weight: 600;
+  font-size: 13px;
+  color: #374151;
+}
+
+.loan-table td {
+  padding: 12px 8px;
+  font-size: 13px;
+}
+
+/* STATUS CHIP */
+.status-chip {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-chip.paid {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-chip.pending {
+  background: #fef9c3;
+  color: #854d0e;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+}

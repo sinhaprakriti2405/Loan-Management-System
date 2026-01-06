@@ -1,0 +1,71 @@
+<div class="edit-loan-wrapper" *ngIf="!loading()">
+
+  <mat-card class="edit-card">
+
+  
+    <div class="card-header">
+      <div>
+        <h2>Edit Loan Type</h2>
+        <p class="subtext">
+          Update configuration for <strong>{{ loanTypeName }}</strong>
+        </p>
+      </div>
+    </div>
+
+    <form [formGroup]="form">
+
+     
+      <mat-form-field appearance="outline" class="full-width readonly">
+        <mat-label>Loan Type Name</mat-label>
+        <input matInput formControlName="name" />
+      </mat-form-field>
+
+     
+      <div class="form-grid">
+
+        <mat-form-field appearance="outline">
+          <mat-label>Interest Rate (%)</mat-label>
+          <input matInput type="number" formControlName="interestRate" />
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Minimum Amount</mat-label>
+          <input matInput type="number" formControlName="minAmount" />
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Maximum Amount</mat-label>
+          <input matInput type="number" formControlName="maxAmount" />
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Maximum Tenure (months)</mat-label>
+          <input matInput type="number" formControlName="maxTenure" />
+        </mat-form-field>
+
+      </div>
+
+      
+      <div class="actions">
+        <button
+          mat-raised-button
+          color="primary"
+          type="button"
+          (click)="updateLoanType()"
+          [disabled]="form.invalid">
+          Update Loan Type
+        </button>
+
+        <button
+          mat-stroked-button
+          type="button"
+          (click)="cancel()">
+          Cancel
+        </button>
+      </div>
+
+    </form>
+
+  </mat-card>
+
+</div>

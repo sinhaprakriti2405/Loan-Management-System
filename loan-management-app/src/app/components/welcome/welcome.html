@@ -1,0 +1,48 @@
+<!-- NAVBAR -->
+<mat-toolbar class="navbar">
+  <span class="logo">LoanBox</span>
+
+  <span class="spacer"></span>
+
+  <button
+    mat-raised-button
+    color="primary"
+    (click)="goToLogin()">
+    Login
+  </button>
+   
+  <button
+    mat-raised-button
+    color="primary"
+    (click)="goToRegister()">
+    Sign Up
+  </button>
+</mat-toolbar>
+
+<!-- MAIN CONTENT -->
+<div class="welcome-wrapper">
+  <!-- HERO CARD -->
+  <mat-card class="welcome-card">
+    <mat-card-title class="title">
+      Providing the best future <br />
+      for your <span>best living.</span>
+    </mat-card-title>
+
+    <mat-card-content>
+      <p class="subtitle">
+        Manage your loans securely, transparently, and efficiently.
+      </p>
+
+      <div class="cta-buttons">
+        <button
+          mat-raised-button
+          color="primary"
+          class="action-btn"
+          (click)="goToRegister()">
+          Get Started
+        </button>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+</div>

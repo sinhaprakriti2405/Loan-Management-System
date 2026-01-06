@@ -1,0 +1,85 @@
+<div class="register-wrapper">
+  <mat-card class="register-card">
+
+    <!-- BRAND INSIDE CARD -->
+    <div class="card-brand">
+      LoanBox
+    </div>
+
+    <!-- TITLE -->
+    <h2 class="title">Register Yourself</h2>
+    <p class="subtitle">
+      Create your account to manage loans securely.
+    </p>
+
+    <!-- ERROR -->
+    <p class="error-text" *ngIf="error()">
+      {{ error() }}
+    </p>
+
+    <!-- FORM -->
+    <form [formGroup]="registerForm" (ngSubmit)="register()">
+
+      <!-- EMAIL -->
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email" />
+        <mat-error *ngIf="registerForm.get('email')?.invalid && registerForm.get('email')?.touched">
+          Enter a valid email
+        </mat-error>
+      </mat-form-field>
+
+      <!-- PASSWORD -->
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Password</mat-label>
+        <input
+          matInput
+          [type]="hidePassword() ? 'password' : 'text'"
+          formControlName="password"
+        />
+        <button
+          mat-icon-button
+          matSuffix
+          type="button"
+          (click)="togglePassword()">
+          <mat-icon>
+            {{ hidePassword() ? 'visibility_off' : 'visibility' }}
+          </mat-icon>
+        </button>
+        <mat-error *ngIf="registerForm.get('password')?.invalid && registerForm.get('password')?.touched">
+          Minimum 6 characters required
+        </mat-error>
+      </mat-form-field>
+
+      <!-- ROLE -->
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Role</mat-label>
+        <mat-select formControlName="requestedRole">
+          <mat-option value="User">User</mat-option>
+          <mat-option value="LoanOfficer">Loan Officer</mat-option>
+          
+        </mat-select>
+        <mat-error *ngIf="registerForm.get('requestedRole')?.invalid && registerForm.get('requestedRole')?.touched">
+          Please select a role
+        </mat-error>
+      </mat-form-field>
+
+      <!-- SUBMIT -->
+      <button
+        mat-raised-button
+        color="primary"
+        class="submit-btn"
+        type="submit"
+        [disabled]="loading()">
+        {{ loading() ? 'Registering...' : 'Register' }}
+      </button>
+    </form>
+
+    <!-- FOOTER -->
+    <div class="footer-text">
+      Already registered?
+      <span (click)="goToLogin()">Login</span>
+    </div>
+
+  </mat-card>
+</div>

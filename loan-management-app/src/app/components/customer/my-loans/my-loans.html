@@ -1,0 +1,139 @@
+<div *ngIf="!loading()" class="my-loans-wrapper">
+
+  <!-- ===== HEADER ===== -->
+  <div class="page-header">
+
+    <div class="header-text">
+      <h2>My Loans</h2>
+      <p>Manage your loan applications</p>
+    </div>
+
+    <div class="controls">
+
+      <!-- SEARCH -->
+      <div class="pill pill-search">
+        <mat-icon>search</mat-icon>
+        <input
+          type="text"
+          placeholder="Loan ID or Status"
+          (keyup)="applySearch($event.target.value)" />
+      </div>
+
+      <!-- FILTER -->
+      <div class="pill pill-filter">
+        <mat-icon>filter_list</mat-icon>
+        <mat-select
+          panelClass="pill-panel"
+          placeholder="Loan Type"
+          (selectionChange)="filterByLoanType($event.value)">
+          <mat-option value="">All Loan Types</mat-option>
+          <mat-option *ngFor="let t of loanTypes()" [value]="t">
+            {{ t }}
+          </mat-option>
+        </mat-select>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===== TABLE CARD ===== -->
+  <mat-card class="table-card">
+
+    <table
+      mat-table
+      [dataSource]="dataSource"
+      matSort
+      class="loan-table">
+
+      <!-- Loan ID -->
+      <ng-container matColumnDef="loanId">
+        <th mat-header-cell *matHeaderCellDef>Loan ID</th>
+        <td mat-cell *matCellDef="let l">{{ l.loanId }}</td>
+      </ng-container>
+
+      <!-- Loan Type -->
+      <ng-container matColumnDef="loanType">
+        <th mat-header-cell *matHeaderCellDef>Loan Type</th>
+        <td mat-cell *matCellDef="let l">{{ l.loanTypeName }}</td>
+      </ng-container>
+
+      <!-- Amount (SORTABLE) -->
+      <ng-container matColumnDef="amount">
+        <th
+          mat-header-cell
+          *matHeaderCellDef
+          mat-sort-header
+          class="sortable">
+          Amount
+        </th>
+        <td mat-cell *matCellDef="let l">
+          ₹ {{ l.amount | number:'1.0-0' }}
+        </td>
+      </ng-container>
+
+      <!-- Tenure -->
+      <ng-container matColumnDef="tenure">
+        <th mat-header-cell *matHeaderCellDef>Tenure</th>
+        <td mat-cell *matCellDef="let l">
+          {{ l.tenure }} months
+        </td>
+      </ng-container>
+
+      <!-- Status (SORTABLE) -->
+      <ng-container matColumnDef="status">
+        <th
+          mat-header-cell
+          *matHeaderCellDef
+          mat-sort-header
+          class="sortable">
+          Status
+        </th>
+        <td mat-cell *matCellDef="let l">
+          <span class="status-chip" [ngClass]="l.status">
+            {{ l.status }}
+          </span>
+        </td>
+      </ng-container>
+
+      <!-- Applied Date (SORTABLE) -->
+      <ng-container matColumnDef="appliedDate">
+        <th
+          mat-header-cell
+          *matHeaderCellDef
+          mat-sort-header
+          class="sortable">
+          Applied On
+        </th>
+        <td mat-cell *matCellDef="let l">
+          {{ l.appliedDate | date:'mediumDate' }}
+        </td>
+      </ng-container>
+
+      <!-- Action -->
+      <ng-container matColumnDef="action">
+        <th mat-header-cell *matHeaderCellDef>Action</th>
+        <td mat-cell *matCellDef="let l">
+        <button
+          *ngIf="l.status !== 'Rejected'"
+          mat-stroked-button
+          color="primary"
+          (click)="viewDetails(l)">
+          View Details
+        </button>
+
+        <!-- Optional placeholder for rejected -->
+        <span *ngIf="l.status === 'Rejected'" class="muted-text">
+          —
+        </span>
+      </td>
+
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+    </table>
+
+  </mat-card>
+
+</div>

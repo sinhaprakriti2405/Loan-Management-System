@@ -1,0 +1,79 @@
+<div class="login-wrapper">
+  <mat-card class="login-card">
+
+    <!-- BRAND INSIDE CARD -->
+    <div class="card-brand">
+      LoanBox
+    </div>
+
+    <!-- TITLE -->
+    <h2 class="title">Welcome Back</h2>
+    <p class="subtitle">
+      Login to continue managing your loans.
+    </p>
+
+    <mat-card-content>
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+
+        <!-- EMAIL -->
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Email</mat-label>
+          <input matInput type="email" formControlName="email" />
+        </mat-form-field>
+
+        <!-- PASSWORD -->
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Password</mat-label>
+          <input
+            matInput
+            [type]="hidePassword() ? 'password' : 'text'"
+            formControlName="password"
+          />
+
+          <button
+            mat-icon-button
+            matSuffix
+            type="button"
+            (click)="hidePassword.set(!hidePassword())">
+            <mat-icon>
+              {{ hidePassword() ? 'visibility_off' : 'visibility' }}
+            </mat-icon>
+          </button>
+        </mat-form-field>
+
+        <!-- ROLE -->
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Login as</mat-label>
+          <mat-select formControlName="loginAsRole">
+            <mat-option value="Customer">Customer</mat-option>
+            <mat-option value="LoanOfficer">Loan Officer</mat-option>
+            <mat-option value="Admin">Admin</mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <!-- ERROR -->
+        <p class="error-text" *ngIf="error()">
+          {{ error() }}
+        </p>
+
+        <!-- SUBMIT -->
+        <button
+          mat-raised-button
+          color="primary"
+          class="submit-btn"
+          type="submit"
+          [disabled]="loading()">
+          {{ loading() ? 'Logging in...' : 'Login' }}
+        </button>
+
+      </form>
+    </mat-card-content>
+
+    <!-- FOOTER -->
+    <div class="footer-text">
+      Not registered yet?
+      <span (click)="goToRegister()">Register</span>
+    </div>
+
+  </mat-card>
+</div>

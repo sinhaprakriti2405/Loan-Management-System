@@ -1,0 +1,10 @@
+mat-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;   /* 🔑 prevents clipping */
+}

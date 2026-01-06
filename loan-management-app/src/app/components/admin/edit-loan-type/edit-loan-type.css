@@ -1,0 +1,78 @@
+
+.edit-loan-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+
+.edit-card {
+  width: 100%;
+  max-width: 720px;
+  padding: 24px;
+  border-radius: 18px;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.08);
+}
+
+.card-header {
+  margin-bottom: 16px;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.subtext {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+
+.full-width {
+  width: 100%;
+}
+
+.readonly {
+  opacity: 0.85;
+}
+
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 16px;
+}
+
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.actions button {
+  border-radius: 999px;
+  padding: 6px 22px;
+  font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+  .edit-card {
+    padding: 20px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .actions {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+}

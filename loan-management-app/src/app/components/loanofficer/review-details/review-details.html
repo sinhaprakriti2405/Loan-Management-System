@@ -1,0 +1,116 @@
+<mat-card *ngIf="!loading()" class="review-card">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div>
+      <h2>Loan Review</h2>
+      <p class="subtext">Loan ID: {{ loan()?.loanId }}</p>
+    </div>
+
+    <span
+      class="status-chip"
+      [ngClass]="loan()?.status">
+      {{ loan()?.status }}
+    </span>
+  </div>
+
+  <!-- LOAN INFO -->
+  <div class="info-grid">
+
+    <div class="info-item">
+      <mat-icon>person</mat-icon>
+      <div>
+        <span>Customer: </span>
+        <strong>{{ loan()?.customerName }} (ID: {{ loan()?.customerId }})</strong>
+      </div>
+    </div>
+
+    <div class="info-item">
+      <mat-icon>assignment</mat-icon>
+      <div>
+        <span>Loan Type: </span>
+        <strong>{{ loan()?.loanTypeName }}</strong>
+      </div>
+    </div>
+
+    <div class="info-item">
+      <mat-icon>currency_rupee</mat-icon>
+      <div>
+        <span>Amount: </span>
+        <strong>₹ {{ loan()?.amount }}</strong>
+      </div>
+    </div>
+
+    <div class="info-item">
+      <mat-icon>schedule</mat-icon>
+      <div>
+        <span>Tenure: </span>
+        <strong>{{ loan()?.tenure }} months</strong>
+      </div>
+    </div>
+
+    <div class="info-item">
+      <mat-icon>percent</mat-icon>
+      <div>
+        <span>Interest: </span>
+        <strong>{{ loan()?.interestRate }}%</strong>
+      </div>
+    </div>
+
+    <div class="info-item">
+      <mat-icon>account_balance</mat-icon>
+      <div>
+        <span>Annual Income: </span>
+        <strong>₹ {{ loan()?.annualIncome }}</strong>
+      </div>
+    </div>
+
+    <div class="info-item">
+      <mat-icon>event</mat-icon>
+      <div>
+        <span>Applied On: </span>
+        <strong>{{ loan()?.appliedDate | date:'mediumDate' }}</strong>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- REMARKS -->
+  <div class="remarks-section">
+    <label class="remarks-label">Officer Remarks</label>
+    <textarea
+      matInput
+      rows="2"
+      class="remarks-box"
+      formControlName="remarks"
+      placeholder="Add remarks for approval or rejection">
+    </textarea>
+  </div>
+
+  <!-- ACTIONS -->
+  <div class="actions">
+
+    <button
+      mat-stroked-button
+      color="primary"
+      (click)="markUnderReview()">
+      Under Review
+    </button>
+
+    <button
+      mat-raised-button
+      color="accent"
+      (click)="approve()">
+      Approve
+    </button>
+
+    <button
+      mat-raised-button
+      color="warn"
+      (click)="reject()">
+      Reject
+    </button>
+
+  </div>
+
+</mat-card>

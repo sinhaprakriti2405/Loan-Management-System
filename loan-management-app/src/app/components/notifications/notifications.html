@@ -1,0 +1,19 @@
+<h3>Notifications</h3>
+
+<div *ngIf="loading()">Loading...</div>
+
+<div *ngIf="!loading() && notifications().length === 0">
+  No notifications
+</div>
+
+<div *ngFor="let n of notifications()" class="notification">
+  <h4>{{ n.title }}</h4>
+  <p>{{ n.message }}</p>
+  <small>{{ n.createdAt | date:'short' }}</small>
+
+  <button *ngIf="!n.isRead" (click)="markAsRead(n.id)">
+    Mark as read
+  </button>
+
+  <hr />
+</div>

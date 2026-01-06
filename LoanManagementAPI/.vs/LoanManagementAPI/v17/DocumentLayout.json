@@ -1,0 +1,843 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:services\\loanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\services\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:services\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\services\\iloanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:services\\iloanservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\models\\notificationqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:models\\notificationqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\models\\notificationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:models\\notificationevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\applyloanresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\applyloanresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\applyloandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\applyloandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\admincreateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\admincreateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\accountsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\accountsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:controllers\\loanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\notificationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\overallaccountsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\overallaccountsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\models\\emi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:models\\emi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFBA5C5-1AF2-4BD9-90B9-7FA4DE44E4A6}|..\\LoanManagementUnitTesting\\LoanManagementUnitTesting.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementunittesting\\paymentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFBA5C5-1AF2-4BD9-90B9-7FA4DE44E4A6}|..\\LoanManagementUnitTesting\\LoanManagementUnitTesting.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementunittesting\\loanservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\models\\loantype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:models\\loantype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\models\\loanapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:models\\loanapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\pendingrolerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\pendingrolerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\payemidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\payemidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\loantypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\loantypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\loansummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\loansummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\loanstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\loanstatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\loanapprovaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\loanapprovaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\dtos\\emidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:dtos\\emidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\loanmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:loanmanagementapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|c:\\users\\kiit\\desktop\\chubb\\capstone\\loanmanagementapi\\loanmanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{E143FF0D-2110-4201-A2DB-19134992155F}|LoanManagementAPI.csproj|solutionrelative:loanmanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NotificationQueue.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\NotificationQueue.cs",
+              "RelativeDocumentMoniker": "Models\\NotificationQueue.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\NotificationQueue.cs",
+              "RelativeToolTip": "Models\\NotificationQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T10:41:10.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Services\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Services\\INotificationService.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Services\\INotificationService.cs",
+              "RelativeToolTip": "Services\\INotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T12:33:10.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Services\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Services\\IPaymentService.cs",
+              "RelativeToolTip": "Services\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T15:22:44.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoanService.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Services\\LoanService.cs",
+              "RelativeDocumentMoniker": "Services\\LoanService.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Services\\LoanService.cs",
+              "RelativeToolTip": "Services\\LoanService.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAwwEUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T15:18:26.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Services\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Services\\NotificationService.cs",
+              "RelativeToolTip": "Services\\NotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T10:42:38.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Services\\PaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Services\\PaymentService.cs",
+              "RelativeToolTip": "Services\\PaymentService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwBMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T15:23:59.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T18:10:13.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Data\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "Data\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Data\\DataSeeder.cs",
+              "RelativeToolTip": "Data\\DataSeeder.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwC8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T11:51:53.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILoanService.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Services\\ILoanService.cs",
+              "RelativeDocumentMoniker": "Services\\ILoanService.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Services\\ILoanService.cs",
+              "RelativeToolTip": "Services\\ILoanService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T15:05:09.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotificationEvent.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\NotificationEvent.cs",
+              "RelativeDocumentMoniker": "Models\\NotificationEvent.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\NotificationEvent.cs",
+              "RelativeToolTip": "Models\\NotificationEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T10:40:29.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\Notification.cs",
+              "RelativeToolTip": "Models\\Notification.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T10:38:01.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\AuthResponseDto.cs",
+              "RelativeToolTip": "DTOs\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T12:29:47.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplyLoanResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\ApplyLoanResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ApplyLoanResponseDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\ApplyLoanResponseDto.cs",
+              "RelativeToolTip": "DTOs\\ApplyLoanResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T13:56:47.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplyLoanDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\ApplyLoanDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ApplyLoanDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\ApplyLoanDto.cs",
+              "RelativeToolTip": "DTOs\\ApplyLoanDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T12:32:03.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminCreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\AdminCreateUserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AdminCreateUserDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\AdminCreateUserDto.cs",
+              "RelativeToolTip": "DTOs\\AdminCreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T14:06:55.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AccountSummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\AccountSummaryDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\AccountSummaryDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\AccountSummaryDto.cs",
+              "RelativeToolTip": "DTOs\\AccountSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T14:54:52.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Data\\SeedData.cs",
+              "RelativeToolTip": "Data\\SeedData.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T11:45:05.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T18:30:30.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAAFMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T11:16:05.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentsController.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T14:50:21.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NotificationsController.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Controllers\\NotificationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificationsController.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Controllers\\NotificationsController.cs",
+              "RelativeToolTip": "Controllers\\NotificationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-05T10:48:26.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoansController.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Controllers\\LoansController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoansController.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Controllers\\LoansController.cs",
+              "RelativeToolTip": "Controllers\\LoansController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwIgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T12:51:57.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T08:47:09.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAkwDwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T12:52:36.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAwwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T14:45:16.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "OverallAccountSummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\OverallAccountSummaryDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\OverallAccountSummaryDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\OverallAccountSummaryDto.cs",
+              "RelativeToolTip": "DTOs\\OverallAccountSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T13:52:50.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "NotificationDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\NotificationDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\NotificationDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\NotificationDto.cs",
+              "RelativeToolTip": "DTOs\\NotificationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T12:31:46.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EMI.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\EMI.cs",
+              "RelativeDocumentMoniker": "Models\\EMI.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\EMI.cs",
+              "RelativeToolTip": "Models\\EMI.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T11:10:15.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "PaymentServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementUnitTesting\\PaymentServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\LoanManagementUnitTesting\\PaymentServiceTests.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementUnitTesting\\PaymentServiceTests.cs",
+              "RelativeToolTip": "..\\LoanManagementUnitTesting\\PaymentServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T10:46:58.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoanServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementUnitTesting\\LoanServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\LoanManagementUnitTesting\\LoanServiceTests.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementUnitTesting\\LoanServiceTests.cs",
+              "RelativeToolTip": "..\\LoanManagementUnitTesting\\LoanServiceTests.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAswCMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-06T10:39:24.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-30T19:25:25.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-30T11:00:14.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoanType.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\LoanType.cs",
+              "RelativeDocumentMoniker": "Models\\LoanType.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\LoanType.cs",
+              "RelativeToolTip": "Models\\LoanType.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T11:06:53.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LoanApplication.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\LoanApplication.cs",
+              "RelativeDocumentMoniker": "Models\\LoanApplication.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\LoanApplication.cs",
+              "RelativeToolTip": "Models\\LoanApplication.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T11:08:00.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T07:54:52.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T11:06:06.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "Middleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T15:28:07.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvwsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T12:28:21.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProfileDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\ProfileDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProfileDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\ProfileDto.cs",
+              "RelativeToolTip": "DTOs\\ProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T11:00:13.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "PendingRoleRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\PendingRoleRequestDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PendingRoleRequestDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\PendingRoleRequestDto.cs",
+              "RelativeToolTip": "DTOs\\PendingRoleRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T12:48:19.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PayEmiDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\PayEmiDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PayEmiDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\PayEmiDto.cs",
+              "RelativeToolTip": "DTOs\\PayEmiDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T09:59:20.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T12:29:07.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LoanTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\LoanTypeDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoanTypeDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\LoanTypeDto.cs",
+              "RelativeToolTip": "DTOs\\LoanTypeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T12:47:30.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LoanSummaryDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\LoanSummaryDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoanSummaryDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\LoanSummaryDto.cs",
+              "RelativeToolTip": "DTOs\\LoanSummaryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T12:48:52.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoanStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\LoanStatusDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoanStatusDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\LoanStatusDto.cs",
+              "RelativeToolTip": "DTOs\\LoanStatusDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T12:32:42.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoanApprovalDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\LoanApprovalDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoanApprovalDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\LoanApprovalDto.cs",
+              "RelativeToolTip": "DTOs\\LoanApprovalDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T12:33:35.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "EmiDto.cs",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\EmiDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\EmiDto.cs",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\DTOs\\EmiDto.cs",
+              "RelativeToolTip": "DTOs\\EmiDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-30T12:33:14.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "LoanManagementAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\LoanManagementAPI.csproj",
+              "RelativeDocumentMoniker": "LoanManagementAPI.csproj",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\LoanManagementAPI.csproj",
+              "RelativeToolTip": "LoanManagementAPI.csproj",
+              "ViewState": "AgIAAAcAAAAAAAAAAABBwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-30T10:58:29.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "LoanManagementAPI.http",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\LoanManagementAPI.http",
+              "RelativeDocumentMoniker": "LoanManagementAPI.http",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\LoanManagementAPI.http",
+              "RelativeToolTip": "LoanManagementAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-12-30T17:38:27.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAABRwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-30T19:25:11.056Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
