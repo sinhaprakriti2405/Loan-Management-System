@@ -220,8 +220,7 @@
               "RelativeToolTip": "Models\\NotificationQueue.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T10:41:10.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T10:41:10.94Z"
             },
             {
               "$type": "Document",
@@ -233,8 +232,7 @@
               "RelativeToolTip": "Services\\INotificationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T12:33:10.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T12:33:10.12Z"
             },
             {
               "$type": "Document",
@@ -246,8 +244,7 @@
               "RelativeToolTip": "Services\\IPaymentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T15:22:44.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T15:22:44.109Z"
             },
             {
               "$type": "Document",
@@ -259,8 +256,7 @@
               "RelativeToolTip": "Services\\LoanService.cs",
               "ViewState": "AgIAAKYAAAAAAAAAAAAwwEUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T15:18:26.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T15:18:26.856Z"
             },
             {
               "$type": "Document",
@@ -272,8 +268,7 @@
               "RelativeToolTip": "Services\\NotificationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T10:42:38.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T10:42:38.362Z"
             },
             {
               "$type": "Document",
@@ -285,8 +280,7 @@
               "RelativeToolTip": "Services\\PaymentService.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAYwBMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T15:23:59.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T15:23:59.176Z"
             },
             {
               "$type": "Document",
@@ -298,8 +292,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:10:13.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:10:13.121Z"
             },
             {
               "$type": "Document",
@@ -309,7 +302,7 @@
               "RelativeDocumentMoniker": "Data\\DataSeeder.cs",
               "ToolTip": "C:\\Users\\KIIT\\Desktop\\CHUBB\\Capstone\\LoanManagementAPI\\Data\\DataSeeder.cs",
               "RelativeToolTip": "Data\\DataSeeder.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwC8AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-30T11:51:53.658Z",
               "EditorCaption": ""
@@ -324,8 +317,7 @@
               "RelativeToolTip": "Services\\ILoanService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T15:05:09.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T15:05:09.511Z"
             },
             {
               "$type": "Document",
@@ -337,8 +329,7 @@
               "RelativeToolTip": "Models\\NotificationEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T10:40:29.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T10:40:29.439Z"
             },
             {
               "$type": "Document",
@@ -350,8 +341,7 @@
               "RelativeToolTip": "Models\\Notification.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAUwAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T10:38:01.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T10:38:01.212Z"
             },
             {
               "$type": "Document",
@@ -363,8 +353,7 @@
               "RelativeToolTip": "DTOs\\AuthResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T12:29:47.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T12:29:47.531Z"
             },
             {
               "$type": "Document",
@@ -376,8 +365,7 @@
               "RelativeToolTip": "DTOs\\ApplyLoanResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T13:56:47.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-01T13:56:47.463Z"
             },
             {
               "$type": "Document",
@@ -389,8 +377,7 @@
               "RelativeToolTip": "DTOs\\ApplyLoanDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T12:32:03.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T12:32:03.033Z"
             },
             {
               "$type": "Document",
@@ -402,8 +389,7 @@
               "RelativeToolTip": "DTOs\\AdminCreateUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T14:06:55.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-01T14:06:55.275Z"
             },
             {
               "$type": "Document",
@@ -415,8 +401,7 @@
               "RelativeToolTip": "DTOs\\AccountSummaryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T14:54:52.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T14:54:52.052Z"
             },
             {
               "$type": "Document",
@@ -428,8 +413,7 @@
               "RelativeToolTip": "Data\\SeedData.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwAkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T11:45:05.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T11:45:05.476Z"
             },
             {
               "$type": "Document",
@@ -441,8 +425,7 @@
               "RelativeToolTip": "Data\\AppDbContextFactory.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwAgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:30:30.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T18:30:30.927Z"
             },
             {
               "$type": "Document",
@@ -454,8 +437,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAHAAAAAAAAAAAAAAAFMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T11:16:05.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T11:16:05.183Z"
             },
             {
               "$type": "Document",
@@ -467,8 +449,7 @@
               "RelativeToolTip": "Controllers\\PaymentsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T14:50:21.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T14:50:21.759Z"
             },
             {
               "$type": "Document",
@@ -480,8 +461,7 @@
               "RelativeToolTip": "Controllers\\NotificationsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-05T10:48:26.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T10:48:26.014Z"
             },
             {
               "$type": "Document",
@@ -493,8 +473,7 @@
               "RelativeToolTip": "Controllers\\LoansController.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAgwIgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T12:51:57.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T12:51:57.818Z"
             },
             {
               "$type": "Document",
@@ -506,8 +485,7 @@
               "RelativeToolTip": "Controllers\\CustomersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T08:47:09.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-03T08:47:09.179Z"
             },
             {
               "$type": "Document",
@@ -519,8 +497,7 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAAJEAAAAAAAAAAAAkwDwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T12:52:36.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T12:52:36.412Z"
             },
             {
               "$type": "Document",
@@ -532,8 +509,7 @@
               "RelativeToolTip": "Controllers\\AdminController.cs",
               "ViewState": "AgIAAKkAAAAAAAAAAAAwwJQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T14:45:16.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T14:45:16.744Z"
             },
             {
               "$type": "Document",
